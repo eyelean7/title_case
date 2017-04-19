@@ -9,6 +9,6 @@ describe('String#title_case') do
     expect(("the color purple").title_case()).to(eq("The Color Purple"))
   end
   it("lower case in") do
-    expect(("the catcher in the rye").title_case()).to(eq("The Catcher in The Rye"))
+    expect(("robin hood men in tights is a very good movie").title_case()).to(eq("Robin Hood Men in Tights Is a Very Good Movie"))
   end
 end
